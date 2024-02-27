@@ -8,6 +8,8 @@ src/csharp/obj/
 test/csharp/.vs
 test/csharp/bin/
 test/csharp/obj/
+*.exe
+*.obj 
 /ort
 /build
 /test/test_models/*
