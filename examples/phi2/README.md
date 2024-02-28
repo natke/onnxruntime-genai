@@ -30,9 +30,24 @@ cd examples/phi2
 python -m onnxruntime_genai.models.builder -m microsoft/phi-2 -e cpu -p int4 -o ./example-models/phi2-int4-cpu
 ```
 
-## Run the phi-2 model
+## Run the model in Python
 
 ```bash
 python phi2.py
 ```
+
+## Run the model in C
+
+Requires cmake to be installed.
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build ..
+```
+
+
+
+
 

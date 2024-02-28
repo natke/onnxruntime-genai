@@ -1,5 +1,4 @@
 ﻿# Files to tell git to ignore
-
 .vscode
 /src/.vs
 /src/csharp/.vs
@@ -11,7 +10,7 @@ test/csharp/obj/
 *.exe
 *.obj 
 /ort
-/build
+build/
 /test/test_models/*
 /cache_models
 /*.csv
